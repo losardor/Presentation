@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Presentation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/theme/black.css">
+    <!-- Theme for syntax highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/highlight/monokai.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Title Slide -->
+            <section>
+                <h1>Team Presentation</h1>
+                <h3>Your Subtitle Here</h3>
+                <p>
+                    <small>Presented by Your Name</small>
+                </p>
+            </section>
+
+            <!-- Example Slide with Bullet Points -->
+            <section>
+                <h2>Slide Title</h2>
+                <ul>
+                    <li>First point</li>
+                    <li>Second point</li>
+                    <li>Third point</li>
+                </ul>
+            </section>
+
+            <!-- Example Slide with Code -->
+            <section>
+                <h2>Code Example</h2>
+                <pre><code data-trim data-noescape class="javascript">
+function example() {
+    console.log("Hello World!");
+}
+                </code></pre>
+            </section>
+
+            <!-- Vertical Slides Example -->
+            <section>
+                <section>
+                    <h2>Vertical Slides</h2>
+                    <p>Press down arrow for more details</p>
+                </section>
+                <section>
+                    <h2>Details</h2>
+                    <p>Additional information here</p>
+                </section>
+            </section>
+
+            <!-- Thank You Slide -->
+            <section>
+                <h1>Thank You</h1>
+                <p>Questions?</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/notes/notes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/plugin/highlight/highlight.js"></script>
+    <script>
+        // Initialize reveal.js
+        Reveal.initialize({
+            hash: true,
+            center: true,
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // Display controls
+            controls: true,
+
+            // Display a presentation progress bar
+            progress: true,
+
+            // Display slide number
+            slideNumber: true,
+
+            // Enable keyboard shortcuts
+            keyboard: true,
+
+            // Enable overview mode
+            overview: true,
+
+            // Vertical centering of slides
+            center: true,
+
+            // Enables touch navigation
+            touch: true,
+
+            // Loop the presentation
+            loop: false,
+
+            // Change the presentation direction to RTL
+            rtl: false,
+
+            // Randomize slide order
+            shuffle: false,
+
+            // Turns fragments on and off globally
+            fragments: true,
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+        });
+    </script>
+</body>
+</html>
